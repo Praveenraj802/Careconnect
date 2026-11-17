@@ -1,0 +1,23 @@
+{
+  "name": "careconnect-workspace",
+  "version": "1.0.0",
+  "description": "CareConnect Community-Based Emergency Help Platform",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "node server/server.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "postinstall": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "careconnect",
+    "emergency",
+    "mern",
+    "react",
+    "socketio",
+    "mongodb"
+  ],
+  "author": "CareConnect Team",
+  "license": "ISC"
+}
